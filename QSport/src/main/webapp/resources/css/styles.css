@@ -1,0 +1,191 @@
+
+/******************************/
+/*     . Login   */
+/******************************/
+
+.login-container{
+  height: 100vh;
+  width: 100%;
+}
+.login-form{
+  margin: auto;
+  width: 370px;
+  padding: 15px;
+  max-width: 100%;
+}
+.login-form .form-control{
+  font-size: 15px;
+  min-height: 48px;
+  font-weight: 500;
+}
+.login-form a{
+  text-decoration: none;
+  color:#666;
+}
+.login-form a:hover{
+  color:#723dbe;
+}
+.forgot-link{
+  font-size: 13px;
+}
+
+.form-control:focus{
+  border-color:#723dbe;
+  box-shadow: 0 0 0 0.2rem rgba(114,61,190,.25);
+}
+.btn-custom{
+  background: #723dbe;
+  border-color:#723dbe;
+  color:#fff;
+  font-size: 15px;
+  font-weight: 600;
+  min-height: 48px;
+}
+.btn-custom:focus,
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:active:focus{
+  background: #54229d;
+  border-color: #54229d;
+  color:#fff;
+}
+.btn-custom:focus{
+  box-shadow: 0 0 0 0.2rem rgba(114,61,190,.25);
+}
+#reg{
+	display:none;
+}
+
+/******************************/
+/*     . Product   */
+/******************************/
+.SanPham{
+	margin: 2% 2%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    overflow: hidden;
+	margin-bottom: 3%;
+}
+
+.card-text{
+	font-weight: bold;
+	color: red;
+}
+
+.infor{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+	margin-bottom: 3%;
+	margin-top: 8%;
+	box-shadow: 10px 10px 5px #aaaaaa;
+	background-color: #F5E8E5;
+}
+
+.infor img{
+	height: 50px;
+	width: 50px;
+}
+
+/******************************/
+/*     .BTN Products   */
+/******************************/
+@import url(https://fonts.googleapis.com/css?family=Raleway:400);
+.snip1457 {
+  font-family: 'Raleway', Arial, sans-serif;
+  border: none;
+  background-color: #5666a5;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0px 30px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  line-height: 46px;
+  font-weight: 400;
+  font-size: 1em;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+  border-radius: 23px;
+  letter-spacing: 2px;
+  -webkit-transform: translateZ(0);
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.snip1457:before {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border-radius: inherit;
+  background-color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+.snip1457:after {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border: 5px solid #5666a5;
+  content: '';
+  border-radius: inherit;
+}
+.snip1457:hover,
+.snip1457.hover {
+  background-color: #5666a5;
+  color: #ffffff;
+}
+.snip1457:hover:before,
+.snip1457.hover:before {
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+  opacity: 0.25;
+}
+
+
+
+----------------------------------------------------------------
+body{background-color:#f2f2f2}main{margin-bottom:200%}.floating-menu{border-radius:100px;z-index:999;padding-top:10px;padding-bottom:10px;left:0;position:fixed;display:inline-block;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.main-menu{margin:0;padding-left:0;list-style:none}.main-menu li a{display:block;padding:20px;color:#fff;border-radius:50px;position:relative;-webkit-transition:none;-o-transition:none;transition:none}.main-menu li a:hover{background:rgba(244,244,244,.3)}.menu-bg{background-image:-webkit-linear-gradient(top,#1C5E91 0,#167699 100%);background-image:-o-linear-gradient(top,#1C5E91 0,#167699 100%);background-image:-webkit-gradient(linear,left top,left bottom,from(#1C5E91),to(#167699));background-image:linear-gradient(to bottom,#1C5E91 0,#167699 100%);background-repeat:repeat-x;position:absolute;width:100%;height:100%;border-radius:50px;z-index:-1;top:0;left:0;-webkit-transition:.1s;-o-transition:.1s;transition:.1s}.ripple{position:relative;overflow:hidden;transform:translate3d(0,0,0)}.ripple:after{content:"";display:block;position:absolute;width:100%;height:100%;top:0;left:0;pointer-events:none;background-image:radial-gradient(circle,#000 10%,transparent 10.01%);background-repeat:no-repeat;background-position:50%;transform:scale(10,10);opacity:0;transition:transform .5s,opacity 1s}.ripple:active:after{transform:scale(0,0);opacity:.2;transition:0s}
+ #status {
+        width: 200px;
+        height: 200px;
+        position: fixed;
+        left: 50%;
+        z-index: 100;
+        top: 50%;
+        background-image: url(http://localhost:8080/QSport/resources/images/loading.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: -100px 0 0 -100px;
+        z-index: 1001
+    }
+
+    #loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #FFF;
+        z-index: 1000
+    }
+    
+--------------------------------------------
